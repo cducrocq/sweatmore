@@ -1,14 +1,18 @@
-<?php 
+<?php
+include('../init.php');
 include('../header.php');
-include('../nav.php');
 
-if (isset($_GET["produit"])) 
+if (isset($_GET["item"]))
 {
-    include('../produit.php'); 
+    include('../item.php');
+}
+elseif (isset($_GET["category"]))
+{
+    include('../category.php');
 }
 else
 {
-    include('../accueil.php'); 
+    include('../home.php');
 }
 
 include('../footer.php'); ?>

@@ -18,4 +18,4 @@
 // }
 
 // Configuration
-$title = "Sweat More";
+$title = "Sweatmore";
