@@ -1,5 +1,6 @@
 <?php 
 include('../header.php');
+include('../nav.php');
 
 if (isset($_GET["produit"])) 
 {
