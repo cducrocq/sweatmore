@@ -1,1 +1,72 @@
 /* CSS Custom */
+
+/****** Setting ****************************/
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style-type:none;
+	/*font-family:arial, sans-serif;*/
+	/* border:1px solid red ; */
+	
+}
+
+
+/*********************************partie mobile ***************************************/
+/***************footer******************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
+{
+#servClient{
+    margin-left:2%;
+    margin-Top:5%;
+
+}
+#hautFooter{
+    position:relative;
+    padding:2%;
+    background-color:#34675c;
+    color:white;
+
+}
+.fa-phone{
+    position:absolute;
+    left:3%;
+    top:30.5%;
+}
+#numéroTel{
+    margin-top:2%;
+    margin-left:6%;
+}
+#textFooter{
+    margin-top:2%;
+}
+.fa-envelope{
+    position:absolute;
+    left:3%;
+    top:64%;
+}
+#mailFooter{
+    margin-top:2%;
+    margin-left:7%;
+}
+.fa-arrow-right{
+    position:absolute;
+    left:3%;
+    bottom:13%;
+}
+
+#contactFooter{
+    margin-top:2.5%;
+    margin-left:6%;
+
+}
+#basFooter{
+    background-color:#29544b;
+    color:white;
+}
+#aideService{
+    
+}
+
+/*font-family: Metamorphous,Georgia,Times New Roman,Times,serif;*/
+}
