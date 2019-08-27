@@ -1,15 +1,31 @@
 # Sweat More
 
+## Pour participer au projet
+- Forker, 
+- Creer une branche avec le nom de votre fonctionalité, 
+- Faites vos Commit,
+- Push sur origin (votre fork),
+- Pull-Request depuis votre github de votre branch,
+- Resoudre les conflits,
+- Merge
+- Attendre que je valide
+
+## Mise à jour avec le depot commun
+https://help.github.com/en/articles/syncing-a-fork
+
 ```sh
 # Afficher la liste des depots distant
 git remote -v
 
-# Ajoute le depot principal
+# Ajoute le depot commun
 git remote add upstream https://github.com/bastienrc/sweatmore
 
-# Mettre à jour avec le depot principal
-https://help.github.com/en/articles/syncing-a-fork
-```
+# Mise à jour
+# Il faut se positionner sur master
+$ git fetch upstream
+$ git checkout master
+$ git merge upstream/master
+``` 
 
 ## Header
 
