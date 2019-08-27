@@ -1,7 +1,13 @@
-<?php include('../header.php'); ?>
+<?php 
+include('../header.php');
 
-<div class="container">
-    <h1>Accueil</h1>
-</div>
+if (isset($_GET["produit"])) 
+{
+    include('../produit.php'); 
+}
+else
+{
+    include('../accueil.php'); 
+}
 
-<?php include('../footer.php'); ?>
+include('../footer.php'); ?>
