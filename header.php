@@ -9,8 +9,8 @@
 </head>
 <body>
     <header>
-
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <i class="fa fa-user" aria-hidden="true"></i>
     </header>
-
 
 
