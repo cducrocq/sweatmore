@@ -11,27 +11,9 @@
     </div>
 
     <div class="row mb-3">
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-    </div>
-
-    <div class="row mb-3">
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-    </div>
-
-    <div class="row mb-3">
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
-        <div class="col-sm"><?php include('card.php'); ?></div>
+        <?php foreach ($items as $item) { ?>
+            <div class="col-sm-3 mb-3"><?php include('card.php'); ?></div>
+        <?php } ?>
     </div>
 
 </div>
