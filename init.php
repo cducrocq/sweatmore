@@ -19,3 +19,35 @@
 
 // Configuration
 $title = "Sweatmore";
+
+$categories = [
+    'musculation' => true,
+    'fitness'     => false,
+    'crossfit'    => false,
+    'running'     => false
+];
+
+$items = [
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ]
+];
+
+$itemsSelection = [
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ]
+];
