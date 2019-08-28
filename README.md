@@ -15,8 +15,6 @@
 
 ## Mise à jour avec le depot commun
 
-https://mdbootstrap.com/docs/jquery/components/cards/#!
-
 [Syncing a fork by Github](https://help.github.com/en/articles/syncing-a-fork)
 
 ```sh
@@ -35,9 +33,8 @@ $ git merge upstream/master
 
 # A lire
 
-https://freefrontend.com/css-forms
-https://freefrontend.com/css-sliders
-https://freefrontend.com/css-tables
-https://freefrontend.com/css-headers-footers/
-
-
+- https://freefrontend.com/css-forms
+- https://freefrontend.com/css-sliders
+- https://freefrontend.com/css-tables
+- https://freefrontend.com/css-headers-footers
+- https://mdbootstrap.com/docs/jquery/components/cards
