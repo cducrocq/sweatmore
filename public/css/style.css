@@ -22,7 +22,7 @@ li {
         
 }
       
-li::before {
+footer li::before {
  content: "=>";
  display: inline-block;
  margin-left: -28px;
@@ -30,8 +30,8 @@ li::before {
  color:#b3c100;
     }
 
-.fa{
-        color:#b3c100;
+footer .fa{
+color:#b3c100;
 }
 #hr1{
     border-top:1px solid #b3c100;
@@ -173,14 +173,14 @@ color:#fdfce7;
 margin-right:50px;
 margin-top:0%;
 }
-.fa{
+footer .fa{
     color:#b3c100;
     font-size:30px;
 }
 .fa-phone{
     position:absolute;
     left:44%;
-    top:31.5%;
+    top:29.5%;
 }
 #numéroTel{
     margin-top:3%;
@@ -197,8 +197,8 @@ margin-top:0%;
 }
 .fa-envelope{
     position:absolute;
-    left:40%;
-    top:60%;
+    left:39%;
+    top:58%;
 }
 #contactFooter{
     margin-top:2.5%;
@@ -207,8 +207,8 @@ margin-top:0%;
 }
 .fa-arrow-right{
     position:absolute;
-    left:45%;
-    bottom:21%;
+    left:44%;
+    bottom:18%;
 }
 
 #aideInfo{
