@@ -23,11 +23,12 @@
 
     <body>
         <header>
-            <div class="jumbotron jumbotron-fluid mb-0">
-                <img src="images/banniere.png" class="img-fluid" alt="Banniere de SweatMore"/>
-            </div>
+            <!-- TODO : Revoir les emplacements des éléments -->
+            <?php include('nav.php'); ?>
+            <a href="/"><img src="images/banniere.png" class="img-fluid" alt="Banniere de SweatMore"/></a>
+            <?php include('social-networks.php'); ?>
         </header>
 
-        <!-- https://getbootstrap.com/docs/4.0/components/carousel -->
+        <!-- Inspiration : https://getbootstrap.com/docs/4.0/components/carousel -->
 
-        <?php include('nav.php'); ?>
+
