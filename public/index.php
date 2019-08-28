@@ -22,6 +22,11 @@ elseif (isset($_GET["contact"]))
 {
     include('../contact.php');
 }
+elseif (isset($_POST["sign"]) || isset($_POST['login']))
+{
+    include('../admin.php');
+}
+
 else
 {
     include('../home.php');
