@@ -21,56 +21,56 @@
     <p id="contactFooter">Contact</p>
     <br>
     </div>
-    <div id="basFooter">
-    
-        <div id=aideInfo>
-            <div id="aideServ">
-                <h2 id="aideService">Aide et service</h2>
-                <li><a> Contact</a></li>
-                <li><a> Foire aux question</a></li>
-                <li><a> Comment comander</a></li>
-                <li><a> A propos</a></li>
+    <div class="basFooter">
+        
+            <div id=aideInfo>
+                <div id="aideServ">
+                    <h2 id="aideService">Aide et service</h2>
+                    <li><a href="index.php?contact"> Contact</a></li>
+                    <li><a href="index.php?index.php?faq"> Foire aux question</a></li>
+                    <li><a href="index.php?comment-commander"> Comment comander</a></li>
+                    <li><a href="index.php?about"> A propos</a></li>
+                </div>
+                <div id="info1" >
+                    <h2 id="info"><a>Information</a></h2>
+                    <li><a href="index.php?comment-commander"> Livraison et delais</a></li>
+                    <li><a href="index.php?cgv"> CGV</a></li>
+                    <li><a href="index.php?comment-commander#droit-retractation"> Droit de retractation</a></li>
+                    <li><a href="index.php?comment-commander"> Paiement</a></li>
+                </div>
+                
             </div>
-            <div id="info1" >
-                <h2 id="info"><a>Information</a></h2>
-                <li><a> Livraison et delais</a></li>
-                <li><a> CGV</a></li>
-                <li><a> Droit de retractation</a></li>
-                <li><a> Paiement</a></li>
-            </div>
+                <div class="avantage">
+                    <h2 id="avantageT">Vos avantages</h2>
+                    <ul>
+                        <li> Grand choix</li>
+                        <li> Livraison rapide</li>
+                        <li> Etat du stock</li>
+                        <li> Livraison et delais</li>
+                    </ul>
+                </div>
             
-        </div>
-            <div class="avantage">
-                <h2 id="avantageT">Vos avantages</h2>
+            <div class="achatSecu">
+                <h2 id="achatT">Achat sécurisé</h2>
                 <ul>
-                <li> Grand choix</li>
-                <li> Livraison rapide</li>
-                <li> Etat du stock</li>
-                <li> Livraison et delais</li>
+                    <li> Avis des clients</li>
+                    <li> Retour sous 30j</li>
+                    <li> Logistique éfficace</li>
+                    <li> Livraison rapide</li>
                 </ul>
             </div>
         
-        <div class="achatSecu">
-        <h2 id="achatT">Achat sécurisé</h2>
-        <ul>
-        <li> Avis des clients</li>
-        <li> Retour sous 30j</li>
-        <li> Logistique éfficace</li>
-        <li> Livraison rapide</li>
-        </ul>
-        </div>
+            <div id="hr1">
+            </div>
 
-        <div id="hr1">
-        </div>
-
-        <h4 id="reg">Reglement:</h4>
-        <div class="logoPay">
-        <img src="images/Paypall-logo.png">
-        <img src="images/master-card-logo.png">
-        <img src="images/logo-virement.png">
-        <img src="images/logo-cheque.png">
-        </div>
-
+            <h4 id="reg">Reglement:</h4>
+            <div class="logoPay">
+                <img src="images/Paypall-logo.png">
+                <img src="images/master-card-logo.png">
+                <img src="images/logo-virement.png">
+                <img src="images/logo-cheque.png">
+            </div>
+        
         <div id="hr1">
         </div>
         <h4 id="livreT">Livraison et delais:</h4>

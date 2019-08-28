@@ -16,8 +16,7 @@
 /***************footer******************/
 
 /*************partie mobile *********************************/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) 
-{
+
 li {
         padding-left: 28px ;
         
@@ -162,4 +161,100 @@ li::before {
 
 }
 /*font-family: Metamorphous,Georgia,Times New Roman,Times,serif;*/
+@media(min-width: 1201px)
+{
+h4{
+    font-size:1em;
+
+}
+#servClient{
+text-align:center;
+color:#fdfce7;
+margin-right:50px;
+margin-top:0%;
+}
+.fa{
+    color:#b3c100;
+    font-size:30px;
+}
+.fa-phone{
+    position:absolute;
+    left:44%;
+    top:31.5%;
+}
+#numéroTel{
+    margin-top:3%;
+    margin-left:46%;
+}
+#textFooter{
+    margin-top:2%;
+    text-align:center;
+}
+#mailFooter{
+    margin-top:2%;
+    text-align:center;
+    margin-right:116px;
+}
+.fa-envelope{
+    position:absolute;
+    left:40%;
+    top:60%;
+}
+#contactFooter{
+    margin-top:2.5%;
+    margin-left:47%;
+
+}
+.fa-arrow-right{
+    position:absolute;
+    left:45%;
+    bottom:21%;
+}
+
+#aideInfo{
+    display:flex;
+    flex-direction:row;
+    
+    }
+#aideService{
+    font-size:1em;
+    color:#fdfce7;
+    margin-top:20px;
+}
+.basFooter{
+    position:relative;
+    background-color:#29544b;
+    color:white;
+}
+.avantage{
+    position:absolute;
+    font-size:1em;
+    top:0px;
+    right:355px;
+}
+.achatSecu{
+    position:absolute;
+    font-size:1em;
+    top:0px;
+    right:96px;
+}
+#reg{
+    margin-top:20px;
+    color:#fdfce7;
+    text-align:center;
+    }
+#livreT{
+        margin-top:0px;
+        color:#fdfce7;
+        text-align:center;
+    
+}
+#avantageT{
+    color:#fdfce7;
+    font-size:1em;
+}
+#achatT{
+    color:#fdfce7;
+    font-size:1em;
+}
 }
