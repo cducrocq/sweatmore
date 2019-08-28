@@ -21,7 +21,16 @@
                 </a>
             </li>
             <?php } ?>
-
+            <li class="nav-item<?= $active ?>">
+                <a class="nav-link" href="index.php?login">
+                    Connexion
+                </a>
+            </li>
+            <li class="nav-item<?= $active ?>">
+                <a class="nav-link" href="index.php?signup">
+                    Inscription
+                </a>
+            </li>
             <!-- https://freefrontend.com/css-toggle-menus -->
         </ul>
     </div>
