@@ -4,18 +4,18 @@
 // Cookie
 
 // Base de donnée
-// date_default_timezone_set('Europe/Paris');
+date_default_timezone_set('Europe/Paris');
 
-// include('config.php');
+include('config.php');
 
-// try
-// {
-//     $bdd = new PDO("mysql:host=$host;dbname=$database;charset=utf8", $login, $mdp);
-// }
-// catch (Exception $e)
-// {
-//     die('Erreur : ' . $e->getMessage());
-// }
+try
+{
+    $bdd = new PDO('mysql:host=' . $host . ';dbname=' . $database . ';charset=utf8', $users, $password);
+}
+catch(Exception $e)
+{
+    die('Erreur: ' . $e->getMessage());
+}
 
 // Configuration
 $title = "Sweatmore";

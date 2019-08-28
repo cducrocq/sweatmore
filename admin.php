@@ -1,8 +1,9 @@
 <!-- Pour inscription !-->
+
 <?php
-    if (isset($_POST['signup']))
+
+    if (isset($_POST['sign']))
     {
-        $pass_hache = password_hash($_POST['pass'], PASSWORD_DEFAULT);
     
         $requete=$bdd->prepare("INSERT INTO sweatmore(pseudo, email, pass) VALUES (:pseudo, :email, :pass)");
         $requete->execute(array(
@@ -13,7 +14,6 @@
 
         echo "<h2> Vous êtes bien inscrits </h2>";
         
-        header ('Location: login.php');
     }	
 
     else if(isset($_POST['login']))
@@ -25,7 +25,7 @@
             echo 'Le pseudo et le mot de passe ne sont pas inscrits';
         }
 
-        $requete=$bdd->prepare("SELECT id, pass FROM sweatmore WHERE pseudo= :pseudo");
+        $requete=$bdd->prepare("SELECT * FROM sweatmore WHERE pseudo= :pseudo");
         $requete->execute(array(
             'pseudo' => $_POST['pseudo']
         ));
