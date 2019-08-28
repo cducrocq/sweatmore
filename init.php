@@ -19,3 +19,21 @@
 
 // Configuration
 $title = "Sweatmore";
+
+$items = [
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ],
+    [ 'id' => 1, 'name' => 'Sweat' ]
+];
