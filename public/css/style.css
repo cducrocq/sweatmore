@@ -1,0 +1,260 @@
+/* CSS Custom */
+
+/****** Setting ****************************/
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style-type:none;
+	/*font-family:arial, sans-serif;*/
+	
+	
+}
+
+
+
+/***************footer******************/
+
+/*************partie mobile *********************************/
+
+li {
+        padding-left: 28px ;
+        
+}
+      
+footer li::before {
+ content: "=>";
+ display: inline-block;
+ margin-left: -28px;
+ width: 1.3em;
+ color:#b3c100;
+    }
+
+footer .fa{
+color:#b3c100;
+}
+#hr1{
+    border-top:1px solid #b3c100;
+    width:90%;
+    height:1px;
+    margin:0 auto;
+    margin-top:30px;
+}
+#servClient{
+    margin-left:2%;
+    margin-Top:5%;
+    color:#fdfce7;
+}
+#hautFooter{
+    position:relative;
+    padding:2%;
+    background-color:#34675c;
+    color:white
+}
+#hautFooter p{
+    color:white;
+}
+.fa-phone{
+    position:absolute;
+    left:3%;
+    top:26.5%;
+}
+#numéroTel{
+    margin-top:2%;
+    margin-left:6%;
+}
+#textFooter{
+    margin-top:2%;
+}
+.fa-envelope{
+    position:absolute;
+    left:3%;
+    top:63%;
+}
+#mailFooter{
+    margin-top:2%;
+    margin-left:7%;
+}
+.fa-arrow-right{
+    position:absolute;
+    left:3%;
+    bottom:18%;
+}
+
+#contactFooter{
+    margin-top:2.5%;
+    margin-left:6%;
+
+}
+#basFooter{
+    background-color:#29544b;
+    color:white;
+}
+#aideInfo{
+    display:flex;
+	flex-direction:row;
+    
+}
+#aideServ{
+    margin-left:6%;
+  
+}
+#info1{
+    margin-left:3%;
+    margin-left:10px;
+}
+#aideService{
+    font-size:1em;
+    color:#fdfce7;
+    margin-top:20px;
+}
+.avantage{
+    font-size:1em;
+    margin-top:20px;
+    margin-left:10px;
+}
+#avantageT{
+    color:#fdfce7;
+}
+.achatSecu{
+    font-size:1em;
+    margin-top:20px;
+    margin-left:10px;
+}
+#achatT{
+    color:#fdfce7;
+}
+#info{
+    color:#fdfce7;
+    font-size:1em;
+    margin-top:20px;
+    
+}
+.logoPay{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+}
+#reg{
+    margin-top:20px;
+    color:#fdfce7;
+    margin-left:10px;
+    }
+#livreT{
+    
+    margin-top:20px;
+    color:#fdfce7;
+    margin-left:10px;
+
+}
+.livr{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+#copyright{
+    padding:2%;
+    text-align:center;
+
+}
+/*font-family: Metamorphous,Georgia,Times New Roman,Times,serif;*/
+@media(min-width: 1201px)
+{
+h4{
+    font-size:1em;
+
+}
+#servClient{
+text-align:center;
+color:#fdfce7;
+margin-right:50px;
+margin-top:0%;
+}
+footer .fa{
+    color:#b3c100;
+    font-size:30px;
+}
+.fa-phone{
+    position:absolute;
+    left:44%;
+    top:29.5%;
+}
+#numéroTel{
+    margin-top:3%;
+    margin-left:46%;
+}
+#textFooter{
+    margin-top:2%;
+    text-align:center;
+}
+#mailFooter{
+    margin-top:2%;
+    text-align:center;
+    margin-right:116px;
+}
+.fa-envelope{
+    position:absolute;
+    left:39%;
+    top:58%;
+}
+#contactFooter{
+    margin-top:2.5%;
+    margin-left:47%;
+
+}
+.fa-arrow-right{
+    position:absolute;
+    left:44%;
+    bottom:18%;
+}
+
+#aideInfo{
+    display:flex;
+    flex-direction:row;
+    
+    }
+#aideService{
+    font-size:1em;
+    color:#fdfce7;
+    margin-top:20px;
+}
+.basFooter{
+    position:relative;
+    background-color:#29544b;
+    color:white;
+}
+.avantage{
+    position:absolute;
+    font-size:1em;
+    top:0px;
+    right:355px;
+}
+.achatSecu{
+    position:absolute;
+    font-size:1em;
+    top:0px;
+    right:96px;
+}
+#reg{
+    margin-top:20px;
+    color:#fdfce7;
+    text-align:center;
+    }
+#livreT{
+        margin-top:0px;
+        color:#fdfce7;
+        text-align:center;
+    
+}
+#avantageT{
+    color:#fdfce7;
+    font-size:1em;
+}
+#achatT{
+    color:#fdfce7;
+    font-size:1em;
+}
+}

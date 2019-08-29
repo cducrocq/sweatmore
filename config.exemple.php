@@ -3,6 +3,6 @@
 $host     = "";
 $database = "";
 $login    = "";
-$mdp      = "";
+$password = "";
 
 ?>
