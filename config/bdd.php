@@ -6,7 +6,7 @@
 // Base de donnée
 date_default_timezone_set('Europe/Paris');
 
-include('config.php');
+require dirname(__DIR__).'/env.php';
 
 try
 {
