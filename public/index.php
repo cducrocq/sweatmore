@@ -12,7 +12,7 @@ elseif (isset($_GET["comment-commander"]))                  { include('../commen
 elseif (isset($_GET["about"]))                              { include('../about.php'); }
 elseif (isset($_GET["info-legale"]))                        { include('../info-legale.php'); }
 elseif (isset($_GET["cgv"]))                                { include('../contact.php'); }
-elseif (isset($_POST["sign"]) || isset($_POST['login']))    { include('../admin.php'); }
+elseif (isset($_POST["sign"]) || isset($_POST['login']))    { include('../treatment.php'); }
 else { 
     include('../home.php'); 
 }

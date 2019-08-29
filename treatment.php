@@ -5,14 +5,15 @@
     if (isset($_POST['sign']))
     {
     
-        $requete=$bdd->prepare("INSERT INTO sweatmore(pseudo, email, pass) VALUES (:pseudo, :email, :pass)");
+        $requete=$bdd->prepare("INSERT INTO users(pseudo, email, pass, class) VALUES (:pseudo, :email, :pass, :class)");
         $requete->execute(array(
             'pseudo' => $_POST['pseudo'],
             'email' => $_POST['email'],
-            'pass' => $_POST['pass']
+            'pass' => $_POST['pass'],
+            'class' =>'user'
         ));	
 
-        echo "<h2> Vous êtes bien inscrits </h2>";
+        echo "<h2 class='text-center'> Votre inscription a bien été prise en compte! </h2>";
         
     }	
 
@@ -25,7 +26,7 @@
             echo 'Le pseudo et le mot de passe ne sont pas inscrits';
         }
 
-        $requete=$bdd->prepare("SELECT * FROM sweatmore WHERE pseudo= :pseudo");
+        $requete=$bdd->prepare("SELECT * FROM users WHERE pseudo= :pseudo");
         $requete->execute(array(
             'pseudo' => $_POST['pseudo']
         ));
@@ -36,7 +37,7 @@
             $_SESSION['pseudo'] = $_POST['pseudo'];
             $_SESSION['id'] = $resultat['id'];
 
-            echo "Bonjour" .$_POST['pseudo'];
+            echo "<h2 class='text-center'> Bonjour " .$_POST['pseudo']." ! </h2>";
         }
 
         else 
