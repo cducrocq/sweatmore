@@ -10,7 +10,7 @@ include('config.php');
 
 try
 {
-    $bdd = new PDO('mysql:host=' . $host . ';dbname=' . $database . ';charset=utf8', $users, $password);
+    $bdd = new PDO('mysql:host=' . $host . ';dbname=' . $database . ';charset=utf8', $login, $password);
 }
 catch(Exception $e)
 {
