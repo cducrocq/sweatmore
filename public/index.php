@@ -7,7 +7,8 @@ require dirname(__DIR__).'/config/bdd.php';
 require dirname(__DIR__).'/templates/header.html.php';
 
 
-// ROUTER// Admin
+// ROUTER
+// Admin
 if (isset($_GET["login"]))                  { require dirname(__DIR__).'/templates/admin/login.html.php'; }
 elseif (isset($_GET["signup"]))             { require dirname(__DIR__).'/templates/admin/signup.html.php'; }
 elseif (isset($_POST['login']))             { require dirname(__DIR__).'/controller/treatment.php'; }
@@ -21,7 +22,7 @@ elseif (isset($_GET["comment-commander"]))  { require dirname(__DIR__).'/templat
 elseif (isset($_GET["contact"]))            { require dirname(__DIR__).'/templates/pages/contact.html.php'; }
 elseif (isset($_GET["faq"]))                { require dirname(__DIR__).'/templates/pages/faq.php.html'; }
 elseif (isset($_GET["info-legale"]))        { require dirname(__DIR__).'/templates/pages/info-legale.html.php'; }
-else                                        { require dirname(__DIR__).'/templates/pages/home.php'; }
+else                                        { require dirname(__DIR__).'/templates/pages/home.html.php'; }
 
 
 // FOOTER
