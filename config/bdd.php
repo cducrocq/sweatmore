@@ -27,27 +27,3 @@ $categories = [
     'running'     => false
 ];
 
-$items = [
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ]
-];
-
-$articlesSelection = [
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ]
-];
