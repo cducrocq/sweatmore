@@ -54,3 +54,5 @@ $ git merge upstream/master
 - https://freefrontend.com/css-tables
 - https://freefrontend.com/css-headers-footers
 - https://mdbootstrap.com/docs/jquery/components/cards
+- http://www.grossiste-vetement-femme.com/categorie-produit/vetement-femme/vetement-sport/
+- https://grossiste-en-ligne.fr
