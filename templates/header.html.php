@@ -24,9 +24,13 @@
     <body>
         <header>
             <!-- TODO : Revoir les emplacements des éléments -->
-            <?php include('nav.php'); ?>
+            <?php require dirname(__DIR__).'/templates/nav.html.php'; ?>
             <a href="/"><img src="images/banniere.png" class="img-fluid" alt="Banniere de SweatMore"/></a>
-            <?php include('social-networks.php'); ?>
+            <div class="container-fluid">
+                <div class="row justify-content-end mr-3 margin-top-custom">
+                    <?php require dirname(__DIR__).'/templates/social-networks.html.php'; ?>
+                </div>
+            </div>
         </header>
 
         <!-- Inspiration : https://getbootstrap.com/docs/4.0/components/carousel -->
