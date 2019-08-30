@@ -45,7 +45,7 @@ $items = [
     [ 'id' => 1, 'name' => 'Sweat' ]
 ];
 
-$itemsSelection = [
+$articlesSelection = [
     [ 'id' => 1, 'name' => 'Sweat' ],
     [ 'id' => 1, 'name' => 'Sweat' ],
     [ 'id' => 1, 'name' => 'Sweat' ],

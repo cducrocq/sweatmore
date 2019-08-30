@@ -1,4 +1,4 @@
-<div class="container mb-5">
+<div class="container mt-3 mb-5">
     <div class="row">
         <div class="col-sm">
             <h2 class="mt-3">Grossiste vêtement de sport homme et femme</h2>
@@ -21,8 +21,8 @@
     </div>
 
     <div class="row mb-3">
-        <?php foreach ($itemsSelection as $item) { ?>
-            <div class="col-sm-3 mb-3"><?php require dirname(__DIR__).'/components/card.php'; ?></div>
+        <?php foreach ($articlesSelection as $article) { ?>
+            <div class="col-sm-3 mb-3"><?php require dirname(__DIR__).'/components/card.html.php'; ?></div>
         <?php } ?>
     </div>
 
