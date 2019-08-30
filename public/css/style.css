@@ -11,6 +11,15 @@
 	
 }
 
+/************ Article ******************/
+.circle {    
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    border-radius: 50%
+}
+
+
 /***************header logo R.sociaux***/
 .margin-top-custom
 {
