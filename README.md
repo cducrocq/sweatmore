@@ -8,6 +8,7 @@
 - [Pour participer au projet](#pour-participer-au-projet)
 - [Mise à jour avec le dépôt commun](#mise-à-jour-avec-le-dépôt-commun)
 - [A lire](#a-lire)
+  - [Cards](#cards)
 
 ---
 
@@ -56,3 +57,11 @@ $ git merge upstream/master
 - https://mdbootstrap.com/docs/jquery/components/cards
 - http://www.grossiste-vetement-femme.com/categorie-produit/vetement-femme/vetement-sport/
 - https://grossiste-en-ligne.fr
+- https://getbootstrap.com/docs/4.0/components/carousel
+
+### Cards
+
+- https://codepen.io/Gelsot/pen/xpGYyd
+- https://freefrontend.com/css-thumbnails
+- https://freefrontend.com/css-dividers/
+

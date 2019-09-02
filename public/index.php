@@ -24,18 +24,18 @@ elseif (isset($_GET["adminuserdel"]))       { require dirname(__DIR__).'/control
 elseif (isset($_POST['login']))             { require dirname(__DIR__).'/controller/login.php'; }
 elseif (isset($_POST["signup"]))            { require dirname(__DIR__).'/controller/signup.php'; }
 // Pages
-elseif (isset($_GET["about"]))              { require dirname(__DIR__).'/templates/pages/about.html.php'; }
-elseif (isset($_GET["article"]))            { require dirname(__DIR__).'/templates/pages/article.html.php'; }
+elseif (isset($_GET["about"]))              { require dirname(__DIR__).'/templates/pages/about.html'; }
+elseif (isset($_GET["article"]))            { require dirname(__DIR__).'/controller/pages/article.php'; }
 elseif (isset($_GET["category"]))           { require dirname(__DIR__).'/controller/category.php'; }
-elseif (isset($_GET["cgv"]))                { require dirname(__DIR__).'/templates/pages/cgv.html.php'; }
-elseif (isset($_GET["comment-commander"]))  { require dirname(__DIR__).'/templates/pages/comment-commander.html.php'; }
-elseif (isset($_GET["contact"]))            { require dirname(__DIR__).'/templates/pages/contact.html.php'; }
-elseif (isset($_GET["faq"]))                { require dirname(__DIR__).'/templates/pages/faq.php.html'; }
-elseif (isset($_GET["info-legale"]))        { require dirname(__DIR__).'/templates/pages/info-legale.html.php'; }
+elseif (isset($_GET["cgv"]))                { require dirname(__DIR__).'/templates/pages/cgv.html'; }
+elseif (isset($_GET["comment-commander"]))  { require dirname(__DIR__).'/templates/pages/comment-commander.html'; }
+elseif (isset($_GET["contact"]))            { require dirname(__DIR__).'/templates/pages/contact.html'; }
+elseif (isset($_GET["faq"]))                { require dirname(__DIR__).'/templates/pages/faq.html'; }
+elseif (isset($_GET["info-legale"]))        { require dirname(__DIR__).'/templates/pages/info-legale.html'; }
 else                                        { require dirname(__DIR__).'/controller/home.php'; }
 
 
 // FOOTER
-require dirname(__DIR__).'/templates/footer.html.php';
+require dirname(__DIR__).'/templates/footer.html';
 
 ?>

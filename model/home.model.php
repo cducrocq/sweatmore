@@ -2,11 +2,9 @@
 // Je fais les requêtes à la BDD
 
 
-// et je mets les données dans tableau pret à l'emploi
+// Je mets les données dans tableau prêt à l'emploi
+// TODO Limiter la selection à 4
 $articlesSelection = [
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
-    [ 'id' => 1, 'name' => 'Sweat' ],
     [ 'id' => 1, 'name' => 'Sweat' ],
     [ 'id' => 1, 'name' => 'Sweat' ],
     [ 'id' => 1, 'name' => 'Sweat' ],

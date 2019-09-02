@@ -13,11 +13,12 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <!-- CSS Custom -->
-        <link rel="stylesheet" href="css/style.css">
-
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- CSS Custom -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/article.css">
 
     </head>
 
@@ -28,11 +29,8 @@
             <a href="/"><img src="images/banniere.png" class="img-fluid" alt="Banniere de SweatMore"/></a>
             <div class="container-fluid">
                 <div class="row justify-content-end mr-3 margin-top-custom">
-                    <?php require dirname(__DIR__).'/templates/social-networks.html.php'; ?>
+                    <?php require dirname(__DIR__).'/templates/social-networks.html'; ?>
                 </div>
             </div>
         </header>
-
-        <!-- Inspiration : https://getbootstrap.com/docs/4.0/components/carousel -->
-
 
