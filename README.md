@@ -57,6 +57,7 @@ $ git merge upstream/master
 - https://mdbootstrap.com/docs/jquery/components/cards
 - http://www.grossiste-vetement-femme.com/categorie-produit/vetement-femme/vetement-sport/
 - https://grossiste-en-ligne.fr
+- https://getbootstrap.com/docs/4.0/components/carousel
 
 ### Cards
 

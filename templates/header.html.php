@@ -29,11 +29,8 @@
             <a href="/"><img src="images/banniere.png" class="img-fluid" alt="Banniere de SweatMore"/></a>
             <div class="container-fluid">
                 <div class="row justify-content-end mr-3 margin-top-custom">
-                    <?php require dirname(__DIR__).'/templates/social-networks.html.php'; ?>
+                    <?php require dirname(__DIR__).'/templates/social-networks.html'; ?>
                 </div>
             </div>
         </header>
-
-        <!-- Inspiration : https://getbootstrap.com/docs/4.0/components/carousel -->
-
 
