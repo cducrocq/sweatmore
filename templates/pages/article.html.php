@@ -9,7 +9,7 @@
 					<img
 						id="mainImage"
 						class="img-fluid rounded"
-						src="/images/articles/article_id_001/black/classique.jpg"
+						src="/images/articles/article_id_001/<?= $article['colors'][0] ?>/classique.jpg"
 						alt="image d'article"
 					>
 				</div>
@@ -23,7 +23,7 @@
 						<li class="p-2">
 							<img
 								class="<?= $i ?> img-fluid rounded thumbnail"
-                                src="/images/articles/article_id_001/black/<?= $image ?>-thumbnail.jpg"
+                                src="/images/articles/article_id_001/<?= $article['colors'][0] ?>/<?= $image ?>-thumbnail.jpg"
                                 name="<?= $image ?>" 
 								alt="Miniature de <?= $image ?>.jpg"
 							>
@@ -57,10 +57,10 @@
                 <?php } ?>
             </div>
 
-            <div class="d-flex justify-content-start align-items-center">
+            <div class="colors d-flex justify-content-start align-items-center">
                 <div class="p-2 articleLabel">Couleurs</div>
                 <?php foreach ($article['colors'] as $color) { ?>
-                <div class="p-2 ml-2 circle" style="background-color: <?= $color ?>;"></div>
+                <div class="p-2 ml-2 circle color" data="<?= $color ?>" style="background-color: <?= $color ?>;"></div>
                 <?php } ?>
             </div>
 

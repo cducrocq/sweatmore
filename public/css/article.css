@@ -15,6 +15,10 @@
     width: 100px;
 }
 
+.activeColor {
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);;
+}
+
 /*****mainImage************************/
 
 #mainImage{
@@ -28,7 +32,7 @@
 
 /*****imgGrid************************/
 
-.thumbnail {
+.thumbnail, .color {
     cursor:pointer;
 }
 
