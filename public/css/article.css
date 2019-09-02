@@ -1,0 +1,34 @@
+/* *** Article *** */
+
+.circle {
+    width: 60px;
+    height: 60px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background: #34675c;
+    border-radius: 50%;
+    color: white;
+}
+
+.articleLabel {
+    width: 100px;
+}
+
+/*****mainImage************************/
+
+#mainImage{
+	width: 100%;
+	height:100%;
+	background-image:url('/images/articles/default-article.png');
+	background-size:cover;
+    background-position:center;
+    margin-bottom: 3rem;
+}
+
+/*****imgGrid************************/
+
+.thumbnail {
+    cursor:pointer;
+}
+

@@ -7,16 +7,8 @@
 	text-decoration:none;
 	list-style-type:none;
 	/*font-family:arial, sans-serif;*/
-	
-	
-}
 
-/************ Article ******************/
-.circle {    
-    width: 100px;
-    height: 100px;
-    background: greenyellow;
-    border-radius: 50%
+
 }
 
 
@@ -33,9 +25,9 @@
 
 li {
         padding-left: 28px ;
-        
+
 }
-      
+
 footer li::before {
  content: "=>";
  display: inline-block;
@@ -107,11 +99,11 @@ color:#b3c100;
 #aideInfo{
     display:flex;
 	flex-direction:row;
-    
+
 }
 #aideServ{
     margin-left:6%;
-  
+
 }
 #info1{
     margin-left:3%;
@@ -142,7 +134,7 @@ color:#b3c100;
     color:#fdfce7;
     font-size:1em;
     margin-top:20px;
-    
+
 }
 .logoPay{
     width:100%;
@@ -157,7 +149,7 @@ color:#b3c100;
     margin-left:10px;
     }
 #livreT{
-    
+
     margin-top:20px;
     color:#fdfce7;
     margin-left:10px;
@@ -228,7 +220,7 @@ footer .fa{
 #aideInfo{
     display:flex;
     flex-direction:row;
-    
+
     }
 #aideService{
     font-size:1em;
@@ -261,7 +253,7 @@ footer .fa{
         margin-top:0px;
         color:#fdfce7;
         text-align:center;
-    
+
 }
 #avantageT{
     color:#fdfce7;

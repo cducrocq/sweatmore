@@ -25,7 +25,7 @@ elseif (isset($_POST['login']))             { require dirname(__DIR__).'/control
 elseif (isset($_POST["signup"]))            { require dirname(__DIR__).'/controller/signup.php'; }
 // Pages
 elseif (isset($_GET["about"]))              { require dirname(__DIR__).'/templates/pages/about.html.php'; }
-elseif (isset($_GET["article"]))            { require dirname(__DIR__).'/templates/pages/article.html.php'; }
+elseif (isset($_GET["article"]))            { require dirname(__DIR__).'/controller/pages/article.php'; }
 elseif (isset($_GET["category"]))           { require dirname(__DIR__).'/controller/category.php'; }
 elseif (isset($_GET["cgv"]))                { require dirname(__DIR__).'/templates/pages/cgv.html.php'; }
 elseif (isset($_GET["comment-commander"]))  { require dirname(__DIR__).'/templates/pages/comment-commander.html.php'; }

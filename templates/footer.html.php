@@ -12,7 +12,7 @@
         <br>
     </div>
     <div class="basFooter">
-        
+
             <div id=aideInfo>
                 <div id="aideServ">
                     <h2 id="aideService">Aide et service</h2>
@@ -32,7 +32,7 @@
                         <li><a href="index.php?comment-commander"> Paiement</a></li>
                     </ul>
                 </div>
-                
+
             </div>
                 <div class="avantage">
                     <h2 id="avantageT">Vos avantages</h2>
@@ -43,7 +43,7 @@
                         <li> Livraison et delais</li>
                     </ul>
                 </div>
-            
+
             <div class="achatSecu">
                 <h2 id="achatT">Achat sécurisé</h2>
                 <ul>
@@ -53,7 +53,7 @@
                     <li> Livraison rapide</li>
                 </ul>
             </div>
-        
+
             <div id="hr1">
             </div>
 
@@ -64,7 +64,7 @@
                 <img src="images/logo-virement.png">
                 <img src="images/logo-cheque.png">
             </div>
-        
+
         <div id="hr1">
         </div>
         <h4 id="livreT">Livraison et delais:</h4>
@@ -74,7 +74,7 @@
         </div>
         <div id="hr1">
         </div>
-        
+
         <div id=copyright>
             <p>© 2019 Sweetmore GmbH | Boutique sportive, catalogue en ligne d'articles de sport et d'accessoires
             TVA incluse, port en sus livraison	en sus, taxe d'importation possible hors zone UE.
@@ -83,7 +83,13 @@
 
         </div>
     </footer>
+
+    <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- JS Custom -->
+    <script src="js/article.js"></script>
+
 </body>
