@@ -15,23 +15,24 @@
 				</div>
 
 				<div class="row mt-3">
-					<div class="d-flex align-items-start imgRow">
+					<ul class="d-flex align-items-start imgRow">
                         <?php
                         $i = 1;
                         foreach ($article['images'] as $image)
                         { ?>
-						<div class="p-2">
+						<li class="p-2">
 							<img
 								class="<?= $i ?> img-fluid rounded thumbnail"
-								src="/images/articles/article_id_001/black/<?= $image ?>-thumbnail.jpg"
+                                src="/images/articles/article_id_001/black/<?= $image ?>-thumbnail.jpg"
+                                name="<?= $image ?>" 
 								alt="Miniature de <?= $image ?>.jpg"
 							>
-						</div>
+						</li>
                         <?php
                         $i++;
                         }
                         ?>
-					</div>
+					</ul>
 				</div>
 
 			</div>
